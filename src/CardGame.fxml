@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsfx.exam2021b78.CardGameController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Button minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onAction="#btnOnChange" text="change">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onAction="#btnOnStop" text="stop">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Pane prefHeight="150.0" prefWidth="100.0">
+         <children>
+            <Text fx:id="txtCard1" layoutX="39.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+         </children>
+      </Pane>
+      <Pane prefHeight="150.0" prefWidth="100.0">
+         <children>
+            <Text fx:id="txtCard2" layoutX="39.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+         </children>
+      </Pane>
+      <Pane prefHeight="150.0" prefWidth="100.0">
+         <children>
+            <Text fx:id="txtCard3" layoutX="39.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+         </children>
+      </Pane>
+   </children>
+</HBox>

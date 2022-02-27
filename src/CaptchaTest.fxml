@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="299.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsfx.exam2016a82.CaptchaTestController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="191.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="52.0" prefWidth="382.0">
+         <children>
+            <TextField fx:id="textField" onKeyPressed="#onEnter" />
+            <Button mnemonicParsing="false" onAction="#btnStop" text="Stop" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
